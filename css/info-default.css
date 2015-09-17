@@ -1,0 +1,919 @@
+﻿/* =====================================================
+   SMAG Media - Default Stylesheet //CREATED: 05/10/2013
+   ===================================================== */
+
+
+/* revolution slider */
+.fullscreen-container {
+	width:100%;
+	position:relative;
+	padding:0;
+}
+
+.fullwidthbanner-container{
+	width:100%;
+	position:relative;
+	padding:0;
+}
+
+.fullwidthbanner-container .fullwidthbanner{
+	width:100%;
+	position:relative;
+}
+
+.tp-caption.roundedimage img {
+	-webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    border-radius: 300px;
+}
+
+.fullscreenbanner-container,
+.fullwidthbanner-container {
+	background:#E2E6E9;
+	margin-bottom:60px !important;
+}
+.fullscreenbanner-container li,
+.fullwidthbanner-container li {
+	visibility:hidden;
+}
+.tp-bullets {
+	bottom:10px !important;
+}
+.tp-caption a.btn,
+.tp-caption a.btn:hover {
+	color:#fff;
+	text-decoration:none;
+}
+.tp-bannershadow {
+	width:100% !important;
+}
+
+
+/* =================== SOCIAL MEDIA ICONS INFO BELOW (NEEDS TO BE CLEANED)  =============*/
+*::-moz-selection {
+    background: none repeat scroll 0% 0% #e2f4fe;
+}
+*::-moz-selection {
+    color: #FFF;
+    text-shadow: none;
+	}
+
+.icon-facebook:before {
+    content: "";
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    text-decoration: inherit;
+    display: inline-block;
+}
+.icon-32.icon-circled {
+    border-radius: 24px;
+}
+.icon-32 {
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    font-size: 16px;
+    line-height: 20px;
+}
+[class^="icon-"], [class*=" icon-"] {
+    margin-top: 1px;
+    margin-right: 0.3em;
+}	
+
+[class^="icon-"], [class*=" icon-"] {
+    float: none;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+	vertical-align: baseline;
+background-image: none;
+background-position: 0% 0%;
+background-repeat: repeat;
+}
+	
+.icon-circled {
+    background-color: #444;
+	}
+	
+.icon-square, .icon-rounded, .icon-plain, .icon-circled {
+    margin: 10px 10px 10px 0px;
+    display: inline-block !important;
+    text-align: center !important;
+    color: #FFF;
+	text-shadow: none;
+    cursor: pointer;
+}
+	
+.divider {
+	border: 0;
+	margin: 60px 0;
+	height: 4px;
+	border-top: #ddd 1px solid;
+	border-bottom: #ddd 1px solid;
+	text-align: center;
+	position: relative;
+	clear: both;
+}
+
+.divider.half-margins {
+		margin:30px 0;
+	}
+
+.divider .fa {
+	color: #bbb;
+	background: #f4f5f7; /* same as background color */
+	text-align: center;
+	display: inline-block;
+	height: 50px; line-height: 50px;
+	text-align: center;
+	width: 50px;
+	font-size: 20px;
+
+	position: absolute;
+	top: -25px; left: 50%;
+	margin: 0 auto 0 -25px;
+
+	-webkit-border-radius:50px;
+	   -moz-border-radius:50px;
+			border-radius:50px;
+}
+
+.divider.dark .fa {
+	color: #333;
+}
+
+.divider.white .fa { /* for white background color OR white rounded icon */
+	background: #fff;
+	color: #333;
+}
+
+li.divider {
+	margin:6px;
+}
+
+/* Featured Box */
+div.featured-box i.fa:after {
+	border-color:#1980B6;
+}
+div.featured-box.nobg.border-only i.fa {
+	color:#1980B6;
+	border-color:#1980B6;
+}
+	
+/* Featured Icons */
+i.featured-icon,
+i.featured-icon:after {
+	border:#1980B6 1px solid;
+}
+i.featured-icon.empty {
+	color:#1980B6 !important;
+}
+
+/* featured icons - alone */
+	i.featured-icon {
+		color: #FFF;
+		margin: 25px 0;
+		padding: 0;
+		display: inline-block;
+		font-size: 40px;
+		width: 100px; height: 100px;
+		line-height: 100px;
+		position: relative;
+		background-color: #1980B6;
+		border: #1980B6 1px solid;
+		text-align:center;
+
+		-webkit-border-radius: 50%;
+		   -moz-border-radius: 50%;
+				border-radius: 50%;
+
+		-webkit-transition: all 0.2s;
+		   -moz-transition: all 0.2s;
+			 -o-transition: all 0.2s;
+				transition: all 0.2s;
+	}
+	i.featured-icon.half {
+		width: 50px; height: 50px;
+		line-height: 50px;
+		font-size: 20px;
+	}
+	i.featured-icon:after {
+	background: transparent;
+	pointer-events: none;
+	content: '';
+	display: block;
+	border-radius: 50%;
+	border: 1px solid #1980B6;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	margin-top: -100px;
+	filter: alpha(opacity=0);
+	opacity: 0;
+
+	-webkit-transition: all 0.2s;
+	   -moz-transition: all 0.2s;
+		 -o-transition: all 0.2s;
+			transition: all 0.2s;
+	}
+	i.featured-icon.half:after {
+		margin-top: -50px;
+	}
+	i.featured-icon:hover:after {
+		filter: alpha(opacity=100);
+		opacity: 1;
+
+		-webkit-transform:scale(1.1);
+		   -moz-transform:scale(1.1);
+			 -o-transform:scale(1.1);
+				transform:scale(1.1);
+	}
+	i.featured-icon.half:hover:after {
+		filter: alpha(opacity=100);
+		opacity: 1;
+
+		-webkit-transform:scale(1.2);
+		   -moz-transform:scale(1.2);
+			 -o-transform:scale(1.2);
+				transform:scale(1.2);
+	}
+
+i.featured-icon.pull-left {
+	margin-right:20px;
+}
+i.featured-icon.pull-right {
+	margin-left:20px;
+}
+
+
+.nomargin { margin:0 !important; 			}
+
+
+/* Buttons */
+.btn-default {
+	border:#1980B6 2px solid;
+}
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+	border:#146794 2px solid;
+}
+.btn-primary {
+	background-color:#1980B6;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+	border:rgba(255,255,255,0) 2px solid;
+	background-color:#146794;
+}
+
+.btn, .btn:hover {
+	border: 0;
+	padding: 8px 18px;
+	border: rgba(255,255,255,0) 2px solid;
+
+	-webkit-transition: all 0.2s;
+	   -moz-transition: all 0.2s;
+		 -o-transition: all 0.2s;
+			transition: all 0.2s;
+}
+
+.bs-callout .btn {
+	margin:0 20px;
+
+}
+
+/* jQuery Countdown styles 1.6.3. */
+.hasCountdown {
+	border: 0px solid #ccc;
+	
+}
+.countdown_rtl {
+	direction: rtl;
+}
+.countdown_holding span {
+	color: #eee;
+}
+.countdown_row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown_show1 .countdown_section {
+	width: 98%;
+}
+.countdown_show2 .countdown_section {
+	width: 48%;
+}
+.countdown_show3 .countdown_section {
+	width: 32.5%;
+}
+.countdown_show4 .countdown_section {
+	width: 24.5%;
+}
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.countdown_amount {
+	font-size: 200%;
+}
+.countdown_descr {
+	display: block;
+	width: 100%;
+    padding: 10px;
+}
+
+.coming-soon { font-size: 24px; text-align: center;line-height: 40px;}
+.countdown { font-size: 12pt; }
+
+
+
+
+/* =================== SOCIAL MEDIA ICONS INFO ABOVE (NEEDS TO BE CLEANED)  =============*/
+
+
+
+body {
+     -webkit-font-smoothing: antialiased;
+     -webkit-text-size-adjust: 100%;
+     margin: 0;padding: 0;
+}
+
+.sm-face { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+}
+.img { border: 0px; }
+
+
+/* circled radius */
+.icon-circled {
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+}
+.icon-32.icon-circled {
+    border-radius: 24px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+}
+
+.meic-header {background:url(../images/mountainBackground.png) center bottom no-repeat #f4f4f4; padding-top:1px; height:564px; position:relative; top:0px;}
+.meicLogo {background:url(../images/MEIClogoReduced.png) center center no-repeat; height:172px;}
+.position {position: relative; top: -200px;}
+
+.meic-page-home { background-color: #FFFFFF;}
+
+.meic-blog { background-color: #e2f4fe;}
+
+.meic-page-twitter-font {background-color: #FFFFFF; margin-top:25px;}
+
+.meic-page-what-is { background-color: #f0f9fe;}
+
+.meic-page-letter-invitation-font {background-color: #F5F5F5;}
+
+.meic-page-about { background-color: #e2f4fe;}
+
+.meic-page-team { background-color: #ffffff;}
+
+.meic-page-expect { background-color: #f3fbfe;}
+
+.meic-page-contact { background-color: #eaf3fa;}
+
+.meic-page-faq { background-color: #d6f2fd;}
+
+.meic-page-social { background-color: #c5c6c8;}
+
+.meic-footer { background-color: #4C4B4C;color: #FFFFFF;padding-bottom: 25px;}
+
+
+.sm-l-height-12 dd { line-height: 32px; }
+.sm-t-small { font-size: 60%; }
+.sm-t-people-info { margin-bottom: 40px; }
+
+.sm-profile { margin-bottom: 60px; }
+.sm-profile h4 { display: block;text-align: center;font-weight: 600;}
+.sm-profile p { font-size: 13px; }
+
+.social { list-style: none;margin-left: 0;}
+.social li { display: inline; }
+.social li a:hover { text-decoration: none; }
+
+.meic-font h1,
+.meic-font h2,
+.meic-font h3,
+.meic-font h4,
+.meic-font h5 { font-family: 'Open Sans', sans-serif;font-weight: 300;margin: 0px;}
+
+.meic-font p,
+.meic-font a,
+.meic-font span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+
+.meic-font-in-header h1 {
+    position: relative;
+    margin: 0;
+    padding: 18px 0 18px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.meic-font-in-header h2 {
+     font-size: 24px; 
+     line-height: 50px;
+     text-align: center;
+     margin: 0 0 24px 9px;
+     padding: 0 0 24px 0;
+     background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA6wAAAAJCAYAAAA2AqGEAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMTgwMTE3NDA3MjA2ODExQTY2N0ZDRDJCRDMxRDAyRiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoyRUFBNTQwNEIyREMxMUUyODczMEQzOTA3QTgwOUQ1MyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoyRUFBNTQwM0IyREMxMUUyODczMEQzOTA3QTgwOUQ1MyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAyODAxMTc0MDcyMDY4MTE4NzFGOUNBMUUzMkNFRDk4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTFBNjY3RkNEMkJEMzFEMDJGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+We2AvgAAAmJJREFUeNrsnVmO4yAQQMHODfI79z9azx0i4RrshqjCgJNuL2D7PckCUyt4ozofbf9+ff0xxljzjS0dj8ejG9uRRNYVbLqkPxp3Bdl/bYgz9Z1znT4vtN3MuBWRPqM3Hr3yHcf7aD8Mw4uvzByiXzvqBnlfyiPq+3xystG+936sOi/N0QYf2bkr/zZzfU2Qv1zzeG3H+JnrbIJfW/KrZC9+w7gp5ZL0TUnH+0llRs1H25swZuYoyX8yPhfjp/6fcvMh8rHm25hL9de2X8sHAFyP78/XcXwv9bk4p1/a2x1z/u0cP7XbIp93OnPyJbYf2knaBpkkMi1PbcbvdNRJ7aVgn5XPyLT/wbfToeLGsanvdZwaG5SOi31vOp13XRf76eFCPJeOhfbpQ8XI+Utz0fJJP5er13nxG/u5XL0Pl6yDXh89f20vKtbU3m43l6z3Uy/Yycx5KjO6H+VJa3Lnvv6Yzu/3e3ofmrXfvNt9JfaLbXe23dJmTb01dGrL3+nUjr/0HrQNPEM13wEAAHsiF/crDfmRA9hKBb0avmr5q30/yMmf0yp5xB8v9t5ctraZbbVgr1E42AZj2AZ0t/gDwRb3nz3hM0vxCwBH3qC1mqecMJ406nPP4udoRRqF4bneaZvkWKtgPduG9SwFf4uFe2u/9h3l10eeGQCA8xe7bHaPn4tc2Ode6yzc18fO+SgF61U3xPbCuVhicf8BAFAssxbM4fBrKFwf5kbBykaf9WBuAAAAQKHCGrFm51tUClagiAMAAAAACjJoumDlX0cAAAAAAABAi1CwAgAAAAAAQJP8E2AA88qTvWwXIOkAAAAASUVORK5CYII=') no-repeat bottom center;
+}
+
+.meic-font-in-article h3 {
+    letter-spacing: initial;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.meic-font-in-article h5 { font-weight: bold;}
+
+.meic-font-in-article p, 
+.meic-font-in-article span {
+    letter-spacing: initial;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 25px;
+}
+
+.meic-font-in-home { font-size: 24px;line-height: 48px;letter-spacing: initial;text-align: center; }
+.meic-font-in-blog { font-size: 18px;line-height: 48px;letter-spacing: initial;text-align: center; }
+
+.meic-right p,
+.meic-right h3,
+.meic-right h1 { text-align: right; }
+
+.meic-left p,
+.meic-left h3,
+.meic-left h1 { text-align: left;}
+
+.meic-top-25 { margin-top: 25px; }
+.meic-top-50 { margin-top: 50px;}
+.meic-top-100 { margin-top: 100px;}
+.meic-top-200 { margin-top: 200px; }
+
+.meic-bottom-25 { margin-bottom: 25px; }
+.meic-bottom-50 { margin-bottom: 50px;}
+.meic-bottom-100 { margin-bottom: 100px;}
+.meic-bottom-200 { margin-bottom: 200px; }
+
+.divider .fa,
+.meic-blue { color: #1980B6 !important; }
+.highlight-blue { background-color: #1980B6 !important;}
+.meic-height-40 { height: 40px; }
+.meic-height-100 { height: 100px; }
+
+ .meic-footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+ .meic-footer dt a { color: #F5F5F5;font-weight: bold; }
+
+.meic-footer a,
+.meic-footer a:link,
+.meic-footer a:active { color: #a0a0a0;text-decoration: none;font-size: 13px;}
+.meic-footer a:hover { color: #c0c0c0;text-decoration: none; font-size: 13px;}
+
+.meic-footer address { padding-top: 32px;line-height: 24px; }
+.meic-footer address > abbr { color: #a0a0a0;}
+
+.meic-hide { visibility: hidden;}
+
+.ruleBottom {margin-bottom:20px;
+}
+.copyright { color: #FFFFFF;}
+
+.bt-front { margin: 5px;}
+
+a.SponsorBlue:link {font-weight: bold; color:#333333 !important;}
+a.SponsorBlue:hover {text-decoration:underline; color:#333333;}
+
+ul#navWrapper {width:1165px; height:255px; margin:20px auto; list-style:none;}
+ul#navWrapper li a {display:block; float:left; height:256px; color:#414042; text-decoration:none;}
+ul#navWrapper li#situationRoom a {width:220px; background:url(../images/navigation.png) no-repeat 0 0;}
+ul#navWrapper li#situationRoom a:hover {width:220px; background:url(../images/navigation.png) no-repeat 0 -254px;}
+ul#navWrapper li#aboutMEIC a {width:190px; background:url(../images/navigation.png) no-repeat -220px 0;}
+ul#navWrapper li#aboutMEIC a:hover {width:190px; background:url(../images/navigation.png) no-repeat -220px -254px;}
+ul#navWrapper li#whoWeAre a {width:168px; background:url(../images/navigation.png) no-repeat -408px 2px;}
+ul#navWrapper li#whoWeAre a:hover {width:168px; background:url(../images/navigation.png) no-repeat -408px -252px;}
+ul#navWrapper li#whatToExpect a {width:225px; background:url(../images/navigation.png) no-repeat -575px 1px;}
+ul#navWrapper li#whatToExpect a:hover {width:225px; background:url(../images/navigation.png) no-repeat -575px -253px;}
+ul#navWrapper li#questions a {width:210px; background:url(../images/navigation.png) no-repeat -800px -2px;}
+ul#navWrapper li#questions a:hover {width:210px; background:url(../images/navigation.png) no-repeat -800px -256px;}
+ul#navWrapper li#contact a {width:153px; background:url(../images/navigation.png) no-repeat -1009px 0;}
+ul#navWrapper li#contact a:hover {width:153px; background:url(../images/navigation.png) no-repeat -1009px -254px;}
+		
+
+.navigationBackground {width:1573px; height:337px; background:url(../images/navBackground.jpg) no-repeat; position:relative; top:-100px;}
+
+.mainInformation {background:url(../images/firstInformation.png) top center no-repeat; height:245px;}
+.mainInformationWrapper {position:relative;}
+
+.tripBoxes1 {background:url(../images/firstInformation.png) no-repeat 0 0; height:270px; width:350px; color:#FFF;}
+.tripBoxes2 {background:url(../images/firstInformation.png) no-repeat -350px 0; height:270px; width:380px; color:#FFF;}
+.tripBoxes3 {background:url(../images/firstInformation.png) no-repeat -740px 0; height:270px; width:370px; color:#FFF;}
+
+#mobileVerification {padding-left:15px; padding-top:65px;}
+#citizenJournalism {padding-left:30px; padding-top:50px;}
+#observationMonitoring {padding-left:10px; padding-top:70px;}
+
+
+.homescreenPaddingTop {padding-top:10px;}
+.mobileVerificationHeader {font-size:28px; line-height:24px; color:#B1B1B1;}
+.mobileVerificationHeaderRed {font-size:28px; line-height:24px; color:#F9D7DA;}
+.mobileVerificationHeaderGreen {font-size:28px; line-height:24px; color:#E6FCE9;}
+
+
+
+.tenPixTop {margin-top:-30px;}
+.twentyPixBottom {margin-bottom: 20px;}
+
+.support {width:105px; height:102px; background:url(../images/graphics/aboutMEICactiveHover.png) no-repeat 0 0; margin:0 auto;}
+.provide {width:105px; height:102px; background:url(../images/graphics/aboutMEICactiveHover.png) no-repeat 0 -103px; margin:0 auto;}
+.respond {width:105px; height:102px; background:url(../images/graphics/aboutMEICactiveHover.png) no-repeat 0 -206px; margin:0 auto;}
+
+.left {float: left;}
+.coverage {width:21px; height:30px; background:url(../images/graphics/whatToExpectGraphics.png) no-repeat -33px 0; margin-top:10px;}
+.evidence {width:35px; height:30px; background:url(../images/graphics/whatToExpectGraphics.png) no-repeat -135px 0; margin-top:10px;}
+.public {width:33px; height:30px; background:url(../images/graphics/whatToExpectGraphics.png) no-repeat -52px 0; margin-top:10px;}
+.verification {width:29px; height:30px; background:url(../images/graphics/whatToExpectGraphics.png) no-repeat -110px 0; margin-top:10px;}
+.airtel {width:35px; height:30px; background:url(../images/graphics/whatToExpectGraphics.png) no-repeat -170px 0; margin-top:10px;}
+.shared {width:35px; height:30px; background:url(../images/graphics/whatToExpectGraphics.png) no-repeat 0 0; margin-top:10px;}
+
+
+
+.socialBodyCut {width:1170px; height:119px; background:url(../images/socialBodyCut2.png) no-repeat;}
+
+	ul#socialMediaWrapper {height:365px; margin:0 auto; list-style:none; font-size:12px;}
+		ul#socialMediaWrapper li a {display:block; float:left; height:325px; color:#414042; text-decoration:none;}
+			ul#socialMediaWrapper li#fcbk a {width:250px; background:url(../images/socialMedia.png) no-repeat 15px -270px;}
+				ul#socialMediaWrapper li#fcbk a:hover {width:250px; background:url(../images/socialMedia.png) no-repeat 15px 51px;}
+			ul#socialMediaWrapper li#twtr a {width:250px; background:url(../images/socialMedia.png) no-repeat -245px -270px;}
+				ul#socialMediaWrapper li#twtr a:hover {width:250px; background:url(../images/socialMedia.png) no-repeat -245px 51px;}
+			ul#socialMediaWrapper li#gplus a {width:250px; background:url(../images/socialMedia.png) no-repeat -495px -270px;}
+				ul#socialMediaWrapper li#gplus a:hover {width:250px; background:url(../images/socialMedia.png) no-repeat -495px 51px;}
+		
+.socialMediaPeople {background:url(socialBody.png) no-repeat top center; margin:0 auto; height:130px;}
+.socialMediaText {font-size:14px;}
+.socialMediaTextBlue {color:#00AEEF;}
+.socialMediaTextActive {color:#333; text-decoration:none;}
+
+.bodyCopyLightGrayBackground {background: #f8f8f8;  width: 100%; margin: 0;}
+
+.menuWrapperNumber {font-weight:bold;}
+.menuWrapperText {font-size:16px; text-align:center;}
+.menuWrapperTextBold {font-weight:bold;}
+
+
+
+.graphicLinks a,
+.graphicLinks a:link,
+.graphicLinks a:active {color:#FFF; text-decoration:underline;}
+
+
+
+/*------------------------------------------------------------------
+[FAQ Screen] 03/04/2014
+-------------------------------------------------------------------*/
+
+.faq-search {
+	margin-bottom: 2em;
+	
+	text-align: right;
+}
+
+.faq-search input {
+	width: 96%;
+	display: block;
+	padding: 2%;
+}
+
+
+
+.faq-empty {
+	display: none;
+}
+
+
+
+.faq-toc {
+	padding: 1.5em 0;
+	margin: 2em 0 0;
+	
+	border: 1px dotted #CCC;
+	border-right: none;
+	border-left: none;
+}
+
+.faq-toc ol {
+	padding: 0;
+	margin: 0;
+}
+
+.faq-toc li {
+	margin-bottom: .75em;
+	
+	list-style: none;
+}
+
+.faq-toc a {
+	margin-left: .5em;
+}
+
+
+
+.faq-list {
+	padding: 0;
+	margin: 3em 0 0;
+	
+	list-style: none;	
+}
+
+.faq-list li {
+	display: table;
+	margin-bottom: 2em;
+}
+
+.faq-icon {
+	display: table-cell;
+	padding-right: 1.25em;
+	vertical-align: top;
+}
+
+.faq-text {
+	display: table-cell;
+	vertical-align: top;
+	
+}
+
+
+.faq-number {
+	width: 32px;
+	height: 32px;
+	
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 32px;
+	color: #FFF;
+	
+	background: #F90;
+	
+	border: 3px solid #FFF;
+	
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	
+	border-radius: 100px;
+	
+	text-shadow: 1px 1px 2px rgba(0,0,0,.4);
+}
+
+
+
+
+.btn-support-ask {
+		display: block; font-size: 22px; padding: 14px 0; font-weight: 600; margin-bottom: .75em;
+	}
+	
+	.btn-support-contact {
+		display: block; padding: 12px 0; font-size: 18px; font-weight: 600;
+	}
+
+/* =====================================================
+   BEGIN - H5BP Main Helper and Print classes and styles
+   ===================================================== */
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */   
+/* ==================================================================
+         Helper classes
+   ================================================================= */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* =====================================================
+   END - H5BP Main Helper and Print classes and styles
+   ===================================================== */
