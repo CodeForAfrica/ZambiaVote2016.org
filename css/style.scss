@@ -4,6 +4,17 @@
  * 
  */
 
+.meic-header {
+  background: url(../images/waterfall.png) center bottom no-repeat #FFFFFF;
+  background-size: 100% auto;
+  .navbar-default {
+    background: transparent;
+    border-color: transparent;
+  }
+}
+
+
+
 section {
 	padding: 40px 0;
 	&.meic-page-home {
