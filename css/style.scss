@@ -10,6 +10,10 @@
   .navbar-default {
     background: transparent;
     border-color: transparent;
+    ul#navWrapper {
+      width: 900px;
+      margin-left: 10%;
+    }
   }
 }
 
