@@ -31,6 +31,23 @@ section {
 }
 
 .partner-logos {
-  
+  padding: 50px 0;
+  a img {
+    height: 80px;
+    margin: 10px 20px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  p:first-child {
+    img {
+      height: 100px;
+    }
+  }
+  p:last-child {
+    img {
+      height: 70px;
+    }
+  }
 }
 
